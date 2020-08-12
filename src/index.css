@@ -195,7 +195,9 @@ p,
 pre {
   margin: 0;
 }
-
+p {
+  margin-bottom: 1rem;
+}
 button {
   background-color: transparent;
   background-image: none;
@@ -219,7 +221,7 @@ ul {
 }
 
 html {
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Rubik", sans-serif;
   line-height: 1.5; /* 2 */
 }
 
@@ -260,4 +262,5 @@ table {
 body {
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
+  font-family: "Rubik", sans-serif;
 }

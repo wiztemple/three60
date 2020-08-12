@@ -1,0 +1,32 @@
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background: #ffffff;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}
+.todo-title {
+  display: block;
+  color: #222;
+  text-decoration: none;
+}
+.todo-title:hover {
+  color: #444;
+}
+.todo-date-created {
+  display: block;
+  font-size: 11px;
+  color: #7b7e81;
+}
+.todo-status {
+  font-size: 13px;
+  padding: 5px 10px;
+  border-radius: 30px;
+}
+.in-progress-pill {
+  background: rgba(70, 115, 228, 0.06);
+  color: #4673e4;
+}

@@ -1,0 +1,78 @@
+.todo-tab {
+  width: 70px;
+  margin-top: 20px;
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+}
+.current-tab > span {
+  margin-left: 20px;
+  color: #777;
+}
+.todomenu-button {
+  width: 100%;
+  display: inline-block;
+  padding: 15px 20px;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border-left: 2px solid transparent;
+}
+.todomenu-button:focus {
+  outline: none;
+}
+.todomenu-button:hover {
+  background-color: rgba(238, 238, 238, 0.308);
+  border-color: #4673e4;
+}
+.todomenu-button:first-child:hover {
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+.todomenu-button:last-child:hover {
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.block-span {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  text-align: center;
+  font-size: 11px;
+  color: #777;
+}
+.items-length {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  font-size: 12px;
+  border-radius: 50%;
+}
+.all-todos {
+  background-color: rgba(70, 115, 228, 0.103);
+  color: #4673e4;
+}
+.backlog {
+  background-color: rgba(151, 166, 174, 0.137);
+  color: #97a6ae;
+}
+.in-progress {
+  background-color: rgba(70, 115, 228, 0.185);
+  color: #4673e4;
+}
+.finished {
+  background-color: rgba(40, 186, 98, 0.144);
+  color: #28ba63;
+}
+.overdue {
+  background-color: #c9971a25;
+  color: #c9981a;
+}
+.trash {
+  background-color: rgba(242, 1, 1, 0.103);
+  color: #f20101;
+}
