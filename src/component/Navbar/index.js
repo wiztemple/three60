@@ -26,7 +26,7 @@ const Navbar = () => {
         </div>
         <div className="nav-menu">
           <div className="nav-left">
-            <a href="#" className="nav-link">
+            <a href="#" className="nav-link active">
               <span className="nav-svg">
                 <svg
                   width="18"
