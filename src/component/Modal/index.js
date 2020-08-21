@@ -1,6 +1,9 @@
 import React, { useEffect, useRef } from "react";
 import { createPortal } from "react-dom";
 
+// style
+import "./ModalStyle.css";
+
 const Modal = ({ children }) => {
   const elRef = useRef(null);
   if (!elRef.current) {
@@ -14,7 +17,7 @@ const Modal = ({ children }) => {
     return () => modalRoot.removeChild(elRef.current);
   }, []);
 
-  return createPortal(<div>{children}</div>, elRef.current);
+  return createPortal(<div className="modal">{children}</div>, elRef.current);
 };
 
 export default Modal;
