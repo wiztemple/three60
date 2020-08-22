@@ -1,4 +1,4 @@
-.input {
+.textarea {
   display: block;
   max-width: 100%;
   width: 100%;
@@ -11,42 +11,20 @@
   border-radius: 3px;
   border: 1px solid rgba(0, 0, 0, 0.08);
 }
-.input:focus {
+.textarea:focus {
   outline: none;
   border-color: rgba(42, 131, 214, 0.27);
   transition: border-color 0.15s ease-in-out;
 }
-.input::-moz-placeholder {
-  color: rgba(54, 54, 54, 0.3);
-}
-.input-small {
-  padding: 0.35rem 0.75rem;
-  border-radius: 5px;
-  background-color: #eee;
-}
-.input-small:focus {
-  background-color: #fff;
-  transition: background-color ease-in-out 0.1s;
-}
-.input:disabled,
-.input:read-only {
-  background-color: rgba(237, 237, 237, 0.2);
-}
-
-.input::-moz-placeholder,
 .textarea::-moz-placeholder {
   color: rgba(54, 54, 54, 0.3);
 }
-
-.input::-webkit-input-placeholder {
-  color: #c4c4c4;
-}
-.input-inverted {
+.textarea-inverted {
   background-color: rgba(247, 247, 247, 0.397);
   border: 2px solid rgba(0, 0, 0, 0.08);
   border-radius: 5px;
 }
-.input-inverted:focus {
+.textarea-inverted:focus {
   border-color: rgba(6, 98, 219, 0.795);
   transition: border-color ease-in-out 300ms;
 }

@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 
-// input style
-import "./InputStyle.css";
+// styles
+import "./TextareaStyle.css";
 
-const Input = (props) => {
+const Textarea = (props) => {
   const [inputType] = useState(props.type);
   const [inputValue, setInputValue] = useState("");
-  const [size] = useState(props.size);
+  const [rows] = useState(props.rows);
+  const [cols] = useState(props.cols);
   const [variant] = useState(props.variant);
   const [placeholder] = useState(props.placeholder);
 
@@ -16,15 +17,19 @@ const Input = (props) => {
   };
   return (
     <>
-      <input
+      <textarea
         type={inputType}
         value={inputValue}
-        name="input-form"
+        name="textarea"
+        rows={rows}
+        cols={cols}
+        variant="inverted"
         onChange={handleChange}
-        className={`input input-${variant} input-${size}`}
+        className={`textarea textarea-${variant}`}
         placeholder={placeholder}
       />
     </>
   );
 };
-export default Input;
+
+export default Textarea;

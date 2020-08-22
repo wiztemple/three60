@@ -30,6 +30,11 @@
 .hidden {
   display: none;
 }
+
+/* utilities */
+.mb-10 {
+  margin-bottom: 10px;
+}
 /*grid*/
 .full-width {
   width: 100%;

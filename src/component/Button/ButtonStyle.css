@@ -37,3 +37,25 @@
 .button-text {
   margin-left: 30px;
 }
+.button-danger {
+  background: #ee0606;
+  color: #fff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 999px;
+}
+.button-danger:hover {
+  background: #ee0606ef;
+}
+.button-outline {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 999px;
+}
+.button-primary {
+  background: #4673e4;
+  color: #fff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 999px;
+}
+.button-wide {
+  padding: 0.625rem 2.5rem;
+}

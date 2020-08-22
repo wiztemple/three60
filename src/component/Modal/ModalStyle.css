@@ -32,19 +32,26 @@
   animation-duration: 1500ms;
 }
 .modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   position: relative;
-  padding: 20px 20px;
-  /* background-color: #fafafa; */
+  background-color: rgba(0, 0, 0, 0.01);
+  padding: 15px 20px;
   font-size: 18px;
   color: #444;
   font-weight: 400;
+}
+.modal-header-text {
+  font-size: 22px;
+  font-weight: 600;
 }
 .modal-body {
   padding: 20px;
 }
 .modal-footer {
-  padding: 10px;
-  /* background-color: #fafafa; */
+  padding: 15px 20px;
+  background-color: rgba(0, 0, 0, 0.01);
 }
 .modal.active {
   display: block;
