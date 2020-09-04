@@ -1,4 +1,5 @@
 .todo {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -29,4 +30,13 @@
 .in-progress-pill {
   background: rgba(70, 115, 228, 0.06);
   color: #4673e4;
+}
+.todo-actions {
+  display: none;
+  position: absolute;
+  right: 0;
+  z-index: 10;
+}
+.todo-actions.active {
+  display: block;
 }

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 //style
 import "./TodoStyle.css";
+import TodoActions from "../TodoActions";
 
 const Todo = () => {
   const [open, setOpen] = useState(false);
@@ -48,6 +49,9 @@ const Todo = () => {
             stroke-linejoin="round"
           />
         </svg>
+      </div>
+      <div className="todo-actions active">
+        <TodoActions />
       </div>
     </div>
   );
